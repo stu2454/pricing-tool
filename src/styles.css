@@ -1,0 +1,157 @@
+/* Global body styles */
+body {
+    background-color: #6B2976;   /* NDIS purple background */
+    color: white;                /* Text color set to white for contrast */
+}
+
+/* Title styling */
+h1 {
+    font-size: 3rem;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+/* Container styling */
+.container {
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* Flexbox alignment for header elements */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+/* Styling for the form group and labels */
+.form-group {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+/* Styling for the form labels */
+.form-label {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-right: 60px;
+    width: 250px;
+    text-align: right;
+}
+
+/* Styling for the select dropdowns */
+.form-select {
+    width: 50%;
+    font-size: 2rem;
+    margin: 0;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Styling for the feedback text boxes */
+.item-code-box, .description-box, .price-range-box {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 15px;
+    width: 50%;
+    text-align: left;
+    border: 1px solid #ccc;
+    font-size: 1.5rem;
+    color: black;
+}
+
+/* Align the text boxes with labels */
+.item-code-box, .description-box, .price-range-box {
+    margin-left: 0;
+}
+
+/* Styling for the reset and I am Finished buttons */
+.reset-button, .finished-button {
+    background-color: #ffffff;
+    color: #6B2976;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 200px;
+    margin-top: 10px;
+}
+
+/* Hover effect for both buttons */
+.reset-button:hover, .finished-button:hover {
+    background-color: #6B2976;
+    color: #ffffff;
+}
+
+/* Positioning for the buttons */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+    .form-select, .item-code-box, .description-box, .price-range-box {
+      width: 100%;
+    }
+
+    .reset-button, .finished-button {
+      width: 100%;
+    }
+
+    .button-container {
+      position: relative;
+      right: 0;
+      bottom: 10px;
+    }
+}
+
+/* Styling for the NDIS logo */
+.logo-container {
+    text-align: right;
+}
+
+img {
+    width: 150px;
+    background-color: transparent;
+    border: none;
+    padding-right: 20px;
+}
+
+/* Styling for the thank-you message */
+.thank-you-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;     /* Align to top */
+    height: 50vh;               /* Full vertical height */
+    text-align: center;
+    flex-direction: column;
+    padding-top: 5vh;           /* Position around 1/3 from the top */
+}
+
+.thank-you-message {
+    font-size: 2rem;             /* Increased font size for first message */
+    color: rgb(255, 255, 255);
+    width: 60%;                  /* Central 80% of the screen */
+    margin: 0 auto;
+}
+
+.thank-you-message p {
+    font-size: 2rem;             /* Regular font size for the second part */
+    margin-top: 40px;
+    line-height: 1.8;
+}
+
+
