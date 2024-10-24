@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/pricing-tool/static/css/main.6947c03c.chunk.css",
+    "main.js": "/pricing-tool/static/js/main.cffd12ea.chunk.js",
+    "main.js.map": "/pricing-tool/static/js/main.cffd12ea.chunk.js.map",
+    "runtime~main.js": "/pricing-tool/static/js/runtime~main.b7febc52.js",
+    "runtime~main.js.map": "/pricing-tool/static/js/runtime~main.b7febc52.js.map",
+    "static/css/2.b71989ea.chunk.css": "/pricing-tool/static/css/2.b71989ea.chunk.css",
+    "static/js/2.d4bea712.chunk.js": "/pricing-tool/static/js/2.d4bea712.chunk.js",
+    "static/js/2.d4bea712.chunk.js.map": "/pricing-tool/static/js/2.d4bea712.chunk.js.map",
+    "static/js/3.68d536b4.chunk.js": "/pricing-tool/static/js/3.68d536b4.chunk.js",
+    "static/js/3.68d536b4.chunk.js.map": "/pricing-tool/static/js/3.68d536b4.chunk.js.map",
+    "index.html": "/pricing-tool/index.html",
+    "precache-manifest.587e7befd4866204568e54ee943114b3.js": "/pricing-tool/precache-manifest.587e7befd4866204568e54ee943114b3.js",
+    "service-worker.js": "/pricing-tool/service-worker.js",
+    "static/css/2.b71989ea.chunk.css.map": "/pricing-tool/static/css/2.b71989ea.chunk.css.map",
+    "static/css/main.6947c03c.chunk.css.map": "/pricing-tool/static/css/main.6947c03c.chunk.css.map",
+    "static/media/NDIS_logo.png": "/pricing-tool/static/media/NDIS_logo.68346255.png"
+  }
+}
