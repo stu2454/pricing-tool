@@ -13,16 +13,17 @@ function App() {
   const [selectedItem, setSelectedItem] = useState(null); // Store selected item
   const [thankYouView, setThankYouView] = useState(false); // Manage thank-you message view
 
-  // Load CSV data on component mount
-  useEffect(() => {
-    Papa.parse('/productData.csv', {
-      download: true,
-      header: true, // Ensure CSV headers are parsed as keys
-      complete: (result) => {
-        setProductData(result.data); // Store parsed CSV data
-      },
-    });
-  }, []);
+// Load CSV data on component mount
+useEffect(() => {
+  Papa.parse(process.env.PUBLIC_URL + '/productData.csv', {
+    download: true,
+    header: true, // Ensure CSV headers are parsed as keys
+    complete: (result) => {
+      setProductData(result.data); // Store parsed CSV data
+    },
+  });
+}, []);
+
 
   // Extract unique categories from the CSV data
   const categories = [...new Set(productData.map(item => item.SupportItemCategory))];
