@@ -15,7 +15,7 @@ function App() {
 
   // Load CSV data on component mount
   useEffect(() => {
-    Papa.parse(process.env.PUBLIC_URL + '/productData.csv', {
+    Papa.parse('/productData.csv', {
       download: true,
       header: true, // Ensure CSV headers are parsed as keys
       complete: (result) => {
@@ -125,6 +125,12 @@ function App() {
 }
 
 export default App;
+
+
+
+
+
+
 
 
 

@@ -154,4 +154,7 @@ img {
     line-height: 1.8;
 }
 
+header, nav {
+    display: none !important;
+}
 
